@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  background-color: #C0D8C0;
+  color: #000;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  margin-top: 40px;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+h1,h2 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+#title {
+  margin: 40px 30% 20px;
+}
+
+img {
+  border: 1px solid #000;
+  padding: 2px;
+  border-radius: 5px;
+  max-width: 350px;
+  width: 100%;
+}
+
+p {
+  color: #8097A6;
+}
+
+.content {
+  max-width: 350px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.content p {
+  max-width: 350px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: flex-start;
+}
+
+.sidebar button {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin: 10px 0 10px;
+  background: #41488F;
+  color: #C0D8C0;
+  width: 200px;
+  max-width: 100%;
+  height: 35px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+.sidebar button:hover {
+  transform: scale(1.1);
+}
+
+.sidebar .reveal-btn {
+  border: none;
+  background-color: #C0D8C0;
+  color: #8097A6;
+  text-decoration: underline;
+  margin: 0;
+}
